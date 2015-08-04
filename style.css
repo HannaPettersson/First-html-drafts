@@ -1,13 +1,14 @@
-html, body, .container {
-	height: 100%;
-	margin: 0;
-	background-color: #34f6c6;
+h1 {
+font-size: 4em; 
+}
 
+html, body, .container{
+	/*height: 100%;*/
+	margin: 0 auto;
 }
 
 .container {
 	display:table;
-	width: 80%;
 	margin: 0 auto;
 }
 
@@ -20,12 +21,22 @@ html, body, .container {
 	display: table-cell;
 	vertical-align: middle;
 	border: 1px solid;
+	padding: 20px;
 
 }
 
 .wrapper {
 	border: 1px, solid black;
 	margin: 0 auto;
-	width: 600px;
+	width: 800px;
+	background-color: yellow;
+	vertical-align: middle;
+	height: 100%;
 
+}
+
+.header {
+margin: 0 auto;
+/*height: 100%;
+/*vertical-align: middle;
 }
